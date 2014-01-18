@@ -1,0 +1,24 @@
+{
+  "name": "console.json",
+  "version": "0.0.0",
+  "description": "Adds console.json method that stringifies passed in objects and logs them",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bahmutov/console.json.git"
+  },
+  "keywords": [
+    "console",
+    "json",
+    "stringify"
+  ],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahmutov/console.json/issues"
+  },
+  "homepage": "https://github.com/bahmutov/console.json"
+}
