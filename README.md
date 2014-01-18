@@ -37,6 +37,18 @@ foo {
 // console.log('foo', foo) prints
 foo { n: 21, bar: { a: [ 'first', 'second' ] } }
 ```
+## Options
+
+You can pass arguments to be used inside `JSON.stringify` to `console.json`
+
+```js
+require('console.json')(null, 4);
+// aligns printed properties using 4 spaces
+```
+
+For exact meaning of these two arguments, see
+[JSON.stringify](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify)
+
 ### Small print
 
 Author: Gleb Bahmutov &copy; 2014

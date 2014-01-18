@@ -1,6 +1,6 @@
 {
   "name": "console.json",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Adds console.json method that stringifies passed in objects and logs them",
   "main": "index.js",
   "scripts": {
