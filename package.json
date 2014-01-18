@@ -15,10 +15,14 @@
     "json",
     "stringify"
   ],
+  "pre-commit": "npm test",
   "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/bahmutov/console.json/issues"
   },
-  "homepage": "https://github.com/bahmutov/console.json"
+  "homepage": "https://github.com/bahmutov/console.json",
+  "devDependencies": {
+    "pre-git": "0.0.15"
+  }
 }
