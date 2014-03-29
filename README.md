@@ -5,11 +5,8 @@
 [![NPM][console.json-icon] ][console.json-url]
 
 [![Build status][console.json-ci-image] ][console.json-ci-url]
-
-[console.json-icon]: https://nodei.co/npm/console.json.png?downloads=true
-[console.json-url]: https://npmjs.org/package/console.json
-[console.json-ci-image]: https://travis-ci.org/bahmutov/console.json.png?branch=master
-[console.json-ci-url]: https://travis-ci.org/bahmutov/console.json
+[![dependencies][console.json-dependencies-image] ][console.json-dependencies-url]
+[![devdependencies][console.json-devdependencies-image] ][console.json-devdependencies-url]
 
 Install: `npm install console.json --save`
 
@@ -64,8 +61,6 @@ Spread the word: tweet, star on github, etc.
 Support: if you find any problems with this module, email / tweet /
 [open issue](https://github.com/bahmutov/console.json/issues) on Github
 
-
-
 ## MIT License
 
 Copyright (c) 2014 Gleb Bahmutov
@@ -91,3 +86,11 @@ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 
+[console.json-icon]: https://nodei.co/npm/console.json.png?downloads=true
+[console.json-url]: https://npmjs.org/package/console.json
+[console.json-ci-image]: https://travis-ci.org/bahmutov/console.json.png?branch=master
+[console.json-ci-url]: https://travis-ci.org/bahmutov/console.json
+[console.json-dependencies-image]: https://david-dm.org/bahmutov/console.json.png
+[console.json-dependencies-url]: https://david-dm.org/bahmutov/console.json
+[console.json-devdependencies-image]: https://david-dm.org/bahmutov/console.json/dev-status.png
+[console.json-devdependencies-url]: https://david-dm.org/bahmutov/console.json#info=devDependencies
