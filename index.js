@@ -10,7 +10,7 @@ module.exports = function (replacer, space) {
   }
 
   setConsoleJson(replacer, space);
-}
+};
 
 function setConsoleJson(replacer, space) {
   if (typeof space === 'number') {
@@ -22,7 +22,7 @@ function setConsoleJson(replacer, space) {
   console.json = function () {
     var args = Array.prototype.slice.call(arguments);
     args = args.map(function (k) {
-      if (typeof k === 'object' || typeof k === 'array') {
+      if (typeof k === 'object' || Array.isArray(k)) {
         return JSON.stringify(k, replacer, space);
       }
       return k;
