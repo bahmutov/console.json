@@ -1,6 +1,7 @@
 // arguments to JSON.stringify described in standard
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify
-module.exports = function (replacer, space) {
+
+module.exports = function consoleJson(replacer, space) {
   if (typeof replacer === 'number') {
     space = replacer;
     replacer = null;
