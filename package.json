@@ -1,7 +1,7 @@
 {
   "name": "console.json",
   "description": "Adds console.json method that stringifies passed in objects and logs them",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
   "bugs": {
     "url": "https://github.com/bahmutov/console.json/issues"

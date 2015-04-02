@@ -8,6 +8,8 @@
 [![dependencies][console.json-dependencies-image] ][console.json-dependencies-url]
 [![devdependencies][console.json-devdependencies-image] ][console.json-devdependencies-url]
 
+[Demo](http://glebbahmutov.com/console.json/demo/)
+
 Install: `npm install console.json --save`
 
 Use:
