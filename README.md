@@ -12,7 +12,9 @@
 
 Install: `npm install console.json --save`
 
-Use:
+## Use:
+
+node:
 
 ```js
 // call once somewhere in the beginning
@@ -36,6 +38,16 @@ foo {
 // console.log('foo', foo) prints
 foo { n: 21, bar: { a: [ 'first', 'second' ] } }
 ```
+
+browser:
+
+```html
+<script src="node_modules/console.json/index.js"></script>
+<script>
+console.json({ foo: 'bar' });
+</script>
+```
+
 ## Options
 
 You can pass arguments to be used inside `JSON.stringify` to `console.json`
