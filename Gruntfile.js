@@ -19,11 +19,20 @@ module.exports = function (grunt) {
       default: {
         'src': [ '*.js', 'test/*.js' ]
       }
+    },
+
+    'clean-console': {
+      all: {
+        options: {
+          url: 'demo/index.html',
+          timeout: 1
+        }
+      }
     }
   });
 
   var plugins = module.require('matchdep').filterDev('grunt-*');
   plugins.forEach(grunt.loadNpmTasks);
 
-  grunt.registerTask('default', ['deps-ok', 'nice-package', 'jshint']);
+  grunt.registerTask('default', ['deps-ok', 'nice-package', 'jshint', 'clean-console']);
 };
