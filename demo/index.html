@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>console.json demo</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="../node_modules/es5-shim/es5-shim.js"></script>
+    <script src="../index.js"></script>
+    <style>
+    .formatted-display {
+      font-family: monospace;
+      white-space: pre;
+    }
+    #demo-script {
+      display: block;
+      border: 1px solid gray;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+    #demo-script:before {
+      content: "use console.json:";
+      font-style: italic;
+      color: #666;
+    }
+    </style>
+  </head>
+  <body>
+    <h2>console.json demo</h2>
+    <script src="../node_modules/console-log-div/console-log-div.js"></script>
+    <script id="demo-script" class="formatted-display">
+      console.log('printing json object');
+      console.json({ foo: 'bar', two: 2 });
+    </script>
+  </body>
+</html>
